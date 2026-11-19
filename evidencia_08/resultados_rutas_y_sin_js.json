@@ -1,0 +1,76 @@
+[
+  {
+    "option": "01",
+    "direct": {
+      "agenda": true,
+      "links": true,
+      "overflow": false,
+      "photo": [
+        {
+          "loaded": true,
+          "src": "assets/fotos/AFH-F05.webp"
+        }
+      ],
+      "title": "Andrés Felipe Herrera González · Squash"
+    },
+    "withoutJS": {
+      "agenda": true,
+      "hiddenPhoto": false,
+      "names": [],
+      "overflow": false,
+      "scripts": 1
+    }
+  },
+  {
+    "option": "02",
+    "direct": {
+      "agenda": true,
+      "links": true,
+      "overflow": false,
+      "photo": [
+        {
+          "loaded": true,
+          "src": "assets/fotos/AFH-F01.webp"
+        }
+      ],
+      "title": "Andrés Felipe Herrera González · El cuadro termina aquí"
+    },
+    "withoutJS": {
+      "agenda": true,
+      "hiddenPhoto": false,
+      "names": [],
+      "overflow": false,
+      "score": "11–33",
+      "scripts": 1
+    }
+  },
+  {
+    "option": "03",
+    "direct": {
+      "agenda": true,
+      "links": true,
+      "overflow": false,
+      "photo": [
+        {
+          "loaded": true,
+          "src": "./assets/fotos/AFH-F06.webp"
+        }
+      ],
+      "title": "Andrés Felipe Herrera González · Squash"
+    },
+    "withoutJS": {
+      "agenda": true,
+      "hiddenPhoto": false,
+      "names": [
+        "Andrés Felipe Herrera",
+        "Miguel Ángel Rodríguez",
+        "Juan Camilo Vargas",
+        "Andrés Felipe Herrera",
+        "Juan Camilo Vargas",
+        "Andrés Felipe Herrera"
+      ],
+      "overflow": false,
+      "scripts": 1
+    }
+  }
+]

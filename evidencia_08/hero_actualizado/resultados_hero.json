@@ -1,0 +1,128 @@
+[
+  {
+    "option": "01",
+    "width": 320,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "32px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "02",
+    "width": 320,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "32px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés Felipe Herrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "03",
+    "width": 320,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "32px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "01",
+    "width": 390,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "38.22px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "02",
+    "width": 390,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "38.22px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés Felipe Herrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "03",
+    "width": 390,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "38.22px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "21.6px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "01",
+    "width": 1280,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "57.6px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "28.16px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "02",
+    "width": 1280,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "57.6px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés Felipe Herrera González",
+      "nameFont": "28.16px",
+      "overflow": false,
+      "photo": true
+    }
+  },
+  {
+    "option": "03",
+    "width": 1280,
+    "result": {
+      "achievement": "Campeónpanamericano.",
+      "achievementFont": "57.6px",
+      "agenda": true,
+      "goal": "Rumbo a losJuegos Olímpicos.",
+      "name": "Andrés FelipeHerrera González",
+      "nameFont": "28.16px",
+      "overflow": false,
+      "photo": true
+    }
+  }
+]

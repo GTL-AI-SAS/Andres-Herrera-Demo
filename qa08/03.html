@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head><base href="../03/"><script>
+(()=>{
+ const q=new URLSearchParams(location.search), phase=q.get('phase'), time=+q.get('t');
+ const option=q.get('option');sessionStorage.removeItem('afh-motion08-opening-'+option);const nativeGet=Storage.prototype.getItem;Storage.prototype.getItem=function(k){return k==='afh-motion08-opening-'+option?null:nativeGet.call(this,k)};
+ if(q.get('reduce')){const mm=window.matchMedia.bind(window);window.matchMedia=(s)=>s.includes('prefers-reduced-motion')?{matches:true,addEventListener(){}}:mm(s);}
+ const native=Element.prototype.animate;
+ window.qa08={calls:[],shifts:[],started:0};
+ if('PerformanceObserver'in window)new PerformanceObserver(list=>list.getEntries().forEach(e=>{if(!e.hadRecentInput)qa08.shifts.push(e.value)})).observe({type:'layout-shift',buffered:true});
+ Element.prototype.animate=function(frames,opts){
+  const a=native.call(this,frames,opts);if(phase==='post'&&!this.matches('.motion08-leaf,.motion08-slice>span,.motion08-carrier')){const settled=Promise.resolve(a);Object.defineProperty(a,'finished',{get:()=>settled})}
+  queueMicrotask(()=>{
+   const isPost=a.id.endsWith('-post');qa08.calls.push({id:a.id,target:this.className,duration:opts.duration,delay:opts.delay,fill:opts.fill,frames});
+   if((phase==='opening'&&!isPost)||(phase==='post'&&isPost)){a.pause();a.currentTime=time;}
+   else if(phase!=='natural')a.finish();
+  });return a;
+ };
+ addEventListener('load',()=>{setInterval(()=>{let o=document.getElementById('qa08-results');if(!o){o=document.createElement('output');o.hidden=true;o.id='qa08-results';document.body.append(o)};if(phase!=='post'||qa08.calls.some(a=>a.id.endsWith('-post'))||q.get('reduce'))o.dataset.ready='true';o.textContent=JSON.stringify({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,images:[...document.images].map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0})),calls:qa08.calls,shifts:qa08.shifts,photo:document.querySelector('figure').getBoundingClientRect().toJSON(),post:[...document.querySelectorAll('.names,.result,.roster')].map(e=>e.getBoundingClientRect().toJSON())});},100);
+  if(phase==='post')setTimeout(()=>{
+   const target=document.querySelector(option==='01'?'#duplas .names':option==='02'?'#registro .result':'#modalidades [aria-labelledby="equipos"] .roster');
+   target.scrollIntoView({block:'center'});
+  },80);
+ });
+})();
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portafolio de squash · Andrés Felipe Herrera González. Resultados por modalidad, historial y propuesta de colaboración.">
+<meta name="color-scheme" content="light">
+<title>Andrés Felipe Herrera González · Squash</title>
+<link rel="stylesheet" href="./assets/estilos.css">
+<script defer src="./assets/motion.js"></script>
+</head>
+<body id="inicio">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="mast wrap">
+  <a class="brand" href="#inicio" aria-label="AFH, inicio"><span class="brand-mark" aria-hidden="true">AFH</span><span>PORTAFOLIO<br>DEPORTIVO</span></a>
+  <nav aria-label="Navegación principal"><a href="#modalidades">Modalidades</a><a href="#agenda">Agenda</a><a href="#colaboracion">Colaboración</a></nav>
+</header>
+<main id="contenido">
+<section class="hero wrap" aria-labelledby="nombre">
+  <div class="hero-copy">
+    <p class="eyebrow sport"><span aria-hidden="true"></span> Squash · Colombia</p>
+    <div class="hero-positioning">
+      <p class="hero-achievement">Campeón<br>panamericano.</p>
+      <p class="hero-proof">Oro en dobles masculino · Juegos Panamericanos Toronto 2015</p>
+      <p class="hero-goal">Rumbo a los<br>Juegos Olímpicos.</p>
+    </div>
+    <h1 id="nombre">Andrés Felipe<br>Herrera<br class="desktop-br"> González</h1>
+    
+    
+    <div class="actions"><a class="button solid" href="#agenda">Ver agenda <span aria-hidden="true">↘</span></a><a class="button" href="#colaboracion">Ver apoyo en encordado <span aria-hidden="true">↘</span></a></div>
+  </div>
+  <figure class="hero-figure">
+    <div class="figure-top eyebrow" aria-hidden="true"><span>Archivo fotográfico</span><span>AFH / 06</span></div>
+    <div class="photo-stage"><div class="photo-square"><div class="plate upper" aria-hidden="true"></div><div class="plate lower" aria-hidden="true"></div><img id="foto-hero" src="./assets/fotos/AFH-F06.webp" width="1440" height="1440" fetchpriority="high" alt="Escena de squash en cancha, con la pelota a la izquierda y la raqueta elevada"></div></div>
+    <figcaption>Squash en cancha · fecha, torneo y partido sin verificar <span>AFH-F06 · Autoría pendiente</span></figcaption>
+  </figure>
+</section>
+<section id="modalidades" class="ledger wrap" aria-labelledby="ledger-title">
+  <div class="section-head"><p class="eyebrow">01 / Planilla de acreditación</p><div><h2 id="ledger-title">La plata tiene<br> tres nombres</h2><p>El resultado no siempre es individual. Cada ficha acredita a quienes lo consiguieron.</p></div></div>
+  <div class="ledger-labels eyebrow" aria-hidden="true"><span>Modalidad / evento</span><span>Nómina acreditada</span><span>Resultado</span></div>
+  <article class="record" aria-labelledby="equipos">
+    <div><h3 id="equipos">Equipos</h3><p>Juegos Panamericanos<br>Lima 2019</p><a class="source" href="https://www.mindeporte.gov.co/sala-de-prensa/archivo-noticias/especial-juegos-panamericanos/el-squash-protagonista-para-colombia-en-los-juegos-panamericanos" aria-label="Fuente AFH-H02, Lima 2019">AFH-H02 ↗</a></div>
+    <ul class="roster"><li class="motion08-row"><span class="motion08-carrier"><i class="strip" aria-hidden="true"></i><span>Andrés Felipe Herrera</span></span></li><li class="motion08-row"><span class="motion08-carrier"><i class="strip" aria-hidden="true"></i><span>Miguel Ángel Rodríguez</span></span></li><li class="shared motion08-row"><span class="motion08-carrier"><i class="strip" aria-hidden="true"></i><span>Juan Camilo Vargas</span></span></li></ul>
+    <div class="result"><strong>Plata masculina</strong><p>Final ante Estados Unidos</p></div>
+  </article>
+  <article class="record" aria-labelledby="dobles">
+    <div><h3 id="dobles">Dobles</h3><p>Juegos Panamericanos<br>Toronto 2015</p><a class="source" href="https://www.squashinfo.com/latest-news/6653-herrera-vargas-grainger-sobhy-win-doubles-panam-games-gold" aria-label="Fuente AFH-H01, Toronto 2015">AFH-H01 ↗</a></div>
+    <div><ul class="roster"><li><i class="strip" aria-hidden="true"></i><span>Andrés Felipe Herrera</span></li><li class="shared"><i class="strip" aria-hidden="true"></i><span>Juan Camilo Vargas</span></li></ul><p class="bridge"><span aria-hidden="true">◆</span> Juan Camilo Vargas también figura en la ficha de Lima; en Toronto la nómina es de dos.</p></div>
+    <div class="result"><strong>Oro en dobles masculino</strong></div>
+  </article>
+  <article class="record" aria-labelledby="individual">
+    <div><h3 id="individual">Individual</h3><p>SACC Costa Rica Open 2026</p><a class="source" href="https://followsquash.com/tournaments/212?draw=male&amp;player=190" aria-label="Fuente AFH-H05, Costa Rica 2026">AFH-H05 ↗</a></div>
+    <ul class="roster"><li><i class="strip" aria-hidden="true"></i><span>Andrés Felipe Herrera</span></li></ul>
+    <div class="result"><strong>Semifinal individual masculina</strong></div>
+  </article>
+</section>
+<section id="agenda" class="agenda wrap" aria-labelledby="agenda-title">
+  <div class="section-head"><p class="eyebrow">02 / Historial deportivo</p><div><h2 id="agenda-title">Agenda</h2><p>Corte: <!--corte:inicio-->19 de noviembre de 2026<!--corte:fin-->. No hay próxima participación individual confirmada en el registro de esta demo.</p></div></div>
+  <ul class="entries"><!--historial:inicio-->
+<li class="entry" id="AFH-A03"><div><time datetime="2026-11-10">10–14 de noviembre de 2026</time><span class="status">Disputado</span></div><div><h3>SACC Costa Rica Open 2026</h3><p class="entry-meta">Santa Ana Country Club, Santa Ana, Costa Rica · Individual masculino</p><p>Fechas del torneo. Herrera fue semifinalista; perdió 1–3 ante Mohamed Gohar.</p><a href="https://followsquash.com/tournaments/212?draw=male&amp;player=190">Ver fuente <span aria-hidden="true">↗</span></a></div></li>
+<li class="entry" id="AFH-A04"><div><time datetime="2026-09-24">24 de septiembre de 2026</time><span class="status">Disputado</span></div><div><h3>XIII Juegos Suramericanos Santa Fe 2026 — final de dobles masculino</h3><p class="entry-meta">Nave C de La Rural, Rosario, Argentina · Dobles masculino</p><p>Fecha de la final. Oro con Matías Knudsen; 2–0 ante Javier Romo y Álvaro Buenaño.</p><a href="https://santafe2026.ar/es/noticias/colombia-paraguay-y-ecuador-se-coronaron-con-el-oro-en-las-finales-de-squash">Ver fuente <span aria-hidden="true">↗</span></a></div></li>
+<!--historial:fin--></ul>
+</section>
+<section id="colaboracion" class="collab" aria-labelledby="collab-title">
+  <div class="wrap section-head"><p class="eyebrow">03 / Propuesta de colaboración</p><div><h2 id="collab-title">Apoyo en encordado</h2><p class="lead">Encordados en especie para un bloque de preparación en Bogotá.</p><p>Por validar: necesidad, proveedor, cantidad, material, tensión, fechas y costo. El aporte apoya la preparación: no promete rendimiento ni constituye un acuerdo, presupuesto o entregable comprometido.</p><p class="channel">No hay un canal comercial autorizado documentado.</p></div></div>
+</section>
+</main>
+<footer class="wrap foot"><p>AFH / Portafolio deportivo<br><span>Demo editorial · No acredita patrocinios</span></p><a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

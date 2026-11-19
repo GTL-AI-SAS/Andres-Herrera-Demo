@@ -1,0 +1,37 @@
+{
+  "repo": "https://github.com/DanielFRengifoS/Gallinas-Valientes-Demo.git",
+  "commit": "fe06ee86abe79d604a22e91aba85e816a154e776",
+  "verificacion": "Cotejo byte a byte contra el ZIP original entregado; comentario ZIP coincide con el commit. Los IDs de blob se calcularon a partir del ZIP, sin cotejo remoto independiente.",
+  "originales": {
+    "index.html": {
+      "bytes": 4623,
+      "sha256": "9ba8db845157c182dc0fa473cae6e99b483fef1278bc0da228659a35e78a7b12",
+      "git_blob_calculado": "847fd4d52166222d777f16d3495765eb7229862c",
+      "adaptado": true
+    },
+    "welcome.css": {
+      "bytes": 6797,
+      "sha256": "e74be28dc06acb4e35992e6f37350082f029cd4c04cdd4e59ba102e068d06b97",
+      "git_blob_calculado": "51cb60eaf57bba042f7fc7ddb257850d581f2062",
+      "adaptado": false
+    },
+    "welcome.js": {
+      "bytes": 5954,
+      "sha256": "155e0c5de9b217bcde282404033845c33e061f82424f42def9f9c3f9240a3400",
+      "git_blob_calculado": "21f996a4df0a04d6212f54e88f1d51f696db59bd",
+      "adaptado": true
+    },
+    "intro-assets/logo-intro.mp4": {
+      "bytes": 131023,
+      "sha256": "3bc757337016e93ec2203d05faf14cd6f071ecd97a4ff42a24ce0ffa39c29c91",
+      "git_blob_calculado": "7b84e87ce4d6786d2480e8e1622ed5f1d80b7bd9",
+      "adaptado": false
+    },
+    "intro-assets/logo-poster.webp": {
+      "bytes": 3978,
+      "sha256": "029741e46b3b1d337b4cb1b7ea0617cf0e31e6352cde6685b1f3edaf5399a549",
+      "git_blob_calculado": "9527d6ff394b8f9c74f792ee4e08c3adc35a9441",
+      "adaptado": false
+    }
+  }
+}

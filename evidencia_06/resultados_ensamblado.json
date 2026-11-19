@@ -1,0 +1,72 @@
+{
+  "alcance": "HTTP local real: código 200 y bytes de cada archivo listado. Chromium bloquea la navegación HTTP y file: en este entorno. Capturas de simulación: DOM, CSS, JS y medios reales en memoria, iframes srcdoc; no verifica el protocolo entre marcos del montaje real.",
+  "rutas_http": [
+    "01/assets/estilo.css",
+    "01/assets/fotos/AFH-F05.webp",
+    "01/assets/motion.js",
+    "01/index.html",
+    "02/assets/estilo.css",
+    "02/assets/fotos/AFH-F01.webp",
+    "02/assets/motion.js",
+    "02/index.html",
+    "03/assets/estilos.css",
+    "03/assets/fotos/AFH-F06.webp",
+    "03/assets/motion.js",
+    "03/index.html",
+    "index.html",
+    "intro-assets/AFH-F01.jpg",
+    "intro-assets/logo-intro.mp4",
+    "intro-assets/logo-poster.webp",
+    "opening-bridge.js",
+    "welcome.css",
+    "welcome.js"
+  ],
+  "simulacion": {
+    "escritorio": {
+      "recorrido": [
+        "01",
+        "02",
+        "03",
+        "01"
+      ],
+      "teclado": true,
+      "medio": {
+        "time": 1.547866,
+        "paused": false,
+        "w": 536,
+        "error": null
+      }
+    },
+    "movil": {
+      "recorrido": [
+        "01",
+        "02",
+        "03",
+        "01"
+      ],
+      "teclado": true,
+      "medio": {
+        "time": 1.425769,
+        "paused": false,
+        "w": 536,
+        "error": null
+      }
+    },
+    "reducido": {
+      "recorrido": [
+        "01",
+        "02",
+        "03",
+        "01"
+      ],
+      "teclado": true,
+      "medio": {
+        "time": 0,
+        "paused": true,
+        "w": 0,
+        "error": null
+      }
+    }
+  },
+  "chromium": "144.0.7559.96"
+}

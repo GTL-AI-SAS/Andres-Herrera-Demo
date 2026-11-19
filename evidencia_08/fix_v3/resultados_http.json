@@ -1,0 +1,610 @@
+[
+  {
+    "option": "01",
+    "result": {
+      "width": 1363,
+      "scrollWidth": 1348,
+      "images": [
+        {
+          "src": "assets/fotos/AFH-F05.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [
+        {
+          "id": "afh08-01-opening",
+          "target": "motion08-sheet",
+          "duration": 650,
+          "delay": 70,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateX(227px) scale(.68) rotate(-7deg)"
+            },
+            {
+              "transform": "translateX(0) scale(1) rotate(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-opening",
+          "target": "motion08-sheet",
+          "duration": 600,
+          "delay": 120,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateX(0px) scale(.68) rotate(4deg)"
+            },
+            {
+              "transform": "translateX(0) scale(1) rotate(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-opening",
+          "target": "motion08-sheet",
+          "duration": 550,
+          "delay": 170,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateX(-227px) scale(.68) rotate(-3deg)"
+            },
+            {
+              "transform": "translateX(0) scale(1) rotate(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(-17px,-6px) rotate(-4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(-5.1px,-3px) rotate(-1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(10px,5px) rotate(4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(3px,2.5px) rotate(1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(-10px,-4px) rotate(-4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(-3px,-2px) rotate(-1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(17px,6px) rotate(4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(5.1px,3px) rotate(1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 75,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(-17px,-6px) rotate(-4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(-5.1px,-3px) rotate(-1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 75,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(10px,5px) rotate(4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(3px,2.5px) rotate(1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 75,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(-10px,-4px) rotate(-4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(-3px,-2px) rotate(-1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-01-post",
+          "target": "",
+          "duration": 510,
+          "delay": 75,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(17px,6px) rotate(4deg)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(5.1px,3px) rotate(1.8deg)",
+              "offset": 0.49
+            },
+            {
+              "transform": "translate(0,0) rotate(0)",
+              "offset": 1
+            }
+          ]
+        }
+      ],
+      "shifts": [],
+      "photo": {
+        "x": 585.328125,
+        "y": -816,
+        "width": 680.65625,
+        "height": 540.21875,
+        "top": -816,
+        "right": 1265.984375,
+        "bottom": -275.78125,
+        "left": 585.328125
+      },
+      "post": [
+        {
+          "x": 123,
+          "y": -27.21875,
+          "width": 538,
+          "height": 96.046875,
+          "top": -27.21875,
+          "right": 661,
+          "bottom": 68.828125,
+          "left": 123
+        },
+        {
+          "x": 123,
+          "y": 68.828125,
+          "width": 538,
+          "height": 109.671875,
+          "top": 68.828125,
+          "right": 661,
+          "bottom": 178.5,
+          "left": 123
+        },
+        {
+          "x": 687,
+          "y": -27.21875,
+          "width": 538,
+          "height": 96.046875,
+          "top": -27.21875,
+          "right": 1225,
+          "bottom": 68.828125,
+          "left": 687
+        },
+        {
+          "x": 687,
+          "y": 68.828125,
+          "width": 538,
+          "height": 109.671875,
+          "top": 68.828125,
+          "right": 1225,
+          "bottom": 178.5,
+          "left": 687
+        }
+      ]
+    }
+  },
+  {
+    "option": "02",
+    "result": {
+      "width": 1363,
+      "scrollWidth": 1348,
+      "images": [
+        {
+          "src": "assets/fotos/AFH-F01.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [
+        {
+          "id": "afh08-02-opening",
+          "target": "motion08-sleeve motion08-paper",
+          "duration": 290,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateY(101%)"
+            },
+            {
+              "transform": "translateY(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "",
+          "duration": 290,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateY(-101%)"
+            },
+            {
+              "transform": "translateY(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "motion08-sleeve motion08-paper",
+          "duration": 1,
+          "delay": 380,
+          "fill": "both",
+          "frames": [
+            {
+              "visibility": "visible"
+            },
+            {
+              "visibility": "hidden"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "motion08-sleeve motion08-green",
+          "duration": 280,
+          "delay": 100,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateY(101%)"
+            },
+            {
+              "transform": "translateY(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "",
+          "duration": 280,
+          "delay": 100,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translateY(-101%)"
+            },
+            {
+              "transform": "translateY(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "motion08-sleeve motion08-green",
+          "duration": 310,
+          "delay": 380,
+          "fill": "forwards",
+          "frames": [
+            {
+              "transform": "translateY(0)"
+            },
+            {
+              "transform": "translateY(-101%)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-opening",
+          "target": "",
+          "duration": 310,
+          "delay": 380,
+          "fill": "forwards",
+          "frames": [
+            {
+              "transform": "translateY(0)"
+            },
+            {
+              "transform": "translateY(101%)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-post",
+          "target": "motion08-leaf",
+          "duration": 460,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "rotateX(0deg)"
+            },
+            {
+              "transform": "rotateX(-180deg)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-02-post",
+          "target": "motion08-leaf",
+          "duration": 460,
+          "delay": 75,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "rotateX(0deg)"
+            },
+            {
+              "transform": "rotateX(-180deg)"
+            }
+          ]
+        }
+      ],
+      "shifts": [],
+      "photo": {
+        "x": 686,
+        "y": -792,
+        "width": 588,
+        "height": 518.28125,
+        "top": -792,
+        "right": 1274,
+        "bottom": -273.71875,
+        "left": 686
+      },
+      "post": [
+        {
+          "x": 961.3125,
+          "y": -38.703125,
+          "width": 297.6875,
+          "height": 139.984375,
+          "top": -38.703125,
+          "right": 1259,
+          "bottom": 101.28125,
+          "left": 961.3125
+        }
+      ]
+    }
+  },
+  {
+    "option": "03",
+    "result": {
+      "width": 1363,
+      "scrollWidth": 1348,
+      "images": [
+        {
+          "src": "./assets/fotos/AFH-F06.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [
+        {
+          "id": "afh08-03-opening",
+          "target": "motion08-contact",
+          "duration": 690,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(371.76px,18px) scale(0.304)",
+              "offset": 0
+            },
+            {
+              "transform": "translate(371.76px,18px) scale(0.304)",
+              "offset": 0.115
+            },
+            {
+              "transform": "translate(0,0) scale(1)",
+              "offset": 1
+            }
+          ]
+        },
+        {
+          "id": "afh08-03-post",
+          "target": "motion08-carrier",
+          "duration": 420,
+          "delay": 100,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(-3px,12px) rotate(-3deg)"
+            },
+            {
+              "transform": "translate(0,0) rotate(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-03-post",
+          "target": "motion08-carrier",
+          "duration": 220,
+          "delay": 0,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(0px,7px) rotate(0deg)"
+            },
+            {
+              "transform": "translate(0,0) rotate(0)"
+            }
+          ]
+        },
+        {
+          "id": "afh08-03-post",
+          "target": "motion08-carrier",
+          "duration": 420,
+          "delay": 100,
+          "fill": "both",
+          "frames": [
+            {
+              "transform": "translate(3px,12px) rotate(3deg)"
+            },
+            {
+              "transform": "translate(0,0) rotate(0)"
+            }
+          ]
+        }
+      ],
+      "shifts": [],
+      "photo": {
+        "x": 671.84375,
+        "y": -794.859375,
+        "width": 608,
+        "height": 660.71875,
+        "top": -794.859375,
+        "right": 1279.84375,
+        "bottom": -134.140625,
+        "left": 671.84375
+      },
+      "post": [
+        {
+          "x": 383.078125,
+          "y": 229.15625,
+          "width": 581.84375,
+          "height": 114,
+          "top": 229.15625,
+          "right": 964.921875,
+          "bottom": 343.15625,
+          "left": 383.078125
+        },
+        {
+          "x": 988.921875,
+          "y": 229.15625,
+          "width": 290.921875,
+          "height": 47.328125,
+          "top": 229.15625,
+          "right": 1279.84375,
+          "bottom": 276.484375,
+          "left": 988.921875
+        },
+        {
+          "x": 383.078125,
+          "y": 388.15625,
+          "width": 581.84375,
+          "height": 76,
+          "top": 388.15625,
+          "right": 964.921875,
+          "bottom": 464.15625,
+          "left": 383.078125
+        },
+        {
+          "x": 988.921875,
+          "y": 388.15625,
+          "width": 290.921875,
+          "height": 22.21875,
+          "top": 388.15625,
+          "right": 1279.84375,
+          "bottom": 410.375,
+          "left": 988.921875
+        },
+        {
+          "x": 383.078125,
+          "y": 536.109375,
+          "width": 581.84375,
+          "height": 38,
+          "top": 536.109375,
+          "right": 964.921875,
+          "bottom": 574.109375,
+          "left": 383.078125
+        },
+        {
+          "x": 988.921875,
+          "y": 536.109375,
+          "width": 290.921875,
+          "height": 22.21875,
+          "top": 536.109375,
+          "right": 1279.84375,
+          "bottom": 558.328125,
+          "left": 988.921875
+        }
+      ]
+    }
+  }
+]

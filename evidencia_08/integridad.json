@@ -1,0 +1,28 @@
+{
+  "changed": [
+    "02/index.html",
+    "01/index.html",
+    "03/index.html",
+    "02/assets/estilo.css",
+    "02/assets/motion.js",
+    "01/assets/estilo.css",
+    "01/assets/motion.js",
+    "03/assets/estilos.css",
+    "03/assets/motion.js"
+  ],
+  "all_original_files_present": true,
+  "agenda_credits_credentials_and_links_preserved": true,
+  "original_zip_sha256": "dc9be674b74c634ebd3b5319ddf62f1588bfb7141f2b32551395c18f07d17d83",
+  "protected_files": {
+    "welcome.js": "155e0c5de9b217bcde282404033845c33e061f82424f42def9f9c3f9240a3400",
+    "README.md": "ff4964f9ec4c2a268d55a22479fee99e6a14b72ea06c35c10eeabe42558ea609",
+    "index.html": "47c5af3abd8d9a161ca3050733b0afb4d1e1745f423621793537c89ed270aadb",
+    "opening-bridge.js": "669e65051f4c4ed74335e65dd98eb8ce97d773d169b7137b6c5bad446d36db1d",
+    "welcome.css": "e74be28dc06acb4e35992e6f37350082f029cd4c04cdd4e59ba102e068d06b97",
+    "MANIFIESTO_TEMPLATE.json": "1b0697ba0b2957e1da570de841033a5c46f2c1039e5692abab4792852eaa23f1",
+    "intro-assets/logo-intro.mp4": "3bc757337016e93ec2203d05faf14cd6f071ecd97a4ff42a24ce0ffa39c29c91",
+    "intro-assets/AFH-F01.jpg": "497a0652bb98fb6750b5091525d6b2a0e92472ada819dce06427a9dd32360d3c",
+    "intro-assets/logo-poster.webp": "029741e46b3b1d337b4cb1b7ea0617cf0e31e6352cde6685b1f3edaf5399a549",
+    "intro-assets/MANIFIESTO_FOTOS.md": "701ecd6082a2cd25de9db3f4c9ba9e16518f9e810b8e207b62e9215fdf3361a0"
+  }
+}

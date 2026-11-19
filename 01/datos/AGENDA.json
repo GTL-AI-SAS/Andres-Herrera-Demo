@@ -1,0 +1,55 @@
+{
+  "fecha_revision": "2026-11-19",
+  "eventos": [
+    {
+      "id": "AFH-A01",
+      "nombre": "Arrayanes CC Open 2026",
+      "inicio": "2026-11-24",
+      "fin": "2026-11-28",
+      "lugar": "Arrayanes Country Club, Quito, Ecuador",
+      "modalidad": "Individual masculino",
+      "estado": "por_validar",
+      "fuente_url": "https://www.squashinfo.com/events/11724-mens-arrayanes-cc-open-2026",
+      "revisado_el": "2026-11-19",
+      "nota": "Fecha del torneo. La ficha revisada no mostraba cuadro; no se verificó inscripción, convocatoria ni asistencia de Herrera. Solo seguimiento interno."
+    },
+    {
+      "id": "AFH-A02",
+      "nombre": "Squash en los XX Juegos Panamericanos Lima 2027",
+      "inicio": "2027-07-25",
+      "fin": "2027-08-01",
+      "lugar": "Lima, Perú",
+      "modalidad": null,
+      "estado": "por_validar",
+      "fuente_url": "https://www.lima2027.org.pe/images/calendario/calendario-deportivo-panam-lima-2027.pdf",
+      "revisado_el": "2026-11-19",
+      "nota": "Fechas oficiales de la disciplina (p. 3), no de un partido del atleta. Colombia tiene cupo por equipos masculino según PanAm Squash; no se verificó convocatoria de Herrera ni su modalidad. Solo seguimiento interno."
+    }
+  ],
+  "historial": [
+    {
+      "id": "AFH-A03",
+      "nombre": "SACC Costa Rica Open 2026",
+      "inicio": "2026-11-10",
+      "fin": "2026-11-14",
+      "lugar": "Santa Ana Country Club, Santa Ana, Costa Rica",
+      "modalidad": "Individual masculino",
+      "estado": "disputado",
+      "fuente_url": "https://followsquash.com/tournaments/212?draw=male&player=190",
+      "revisado_el": "2026-11-19",
+      "nota": "Fechas del torneo. Herrera fue semifinalista; perdió 1–3 ante Mohamed Gohar."
+    },
+    {
+      "id": "AFH-A04",
+      "nombre": "XIII Juegos Suramericanos Santa Fe 2026 — final de dobles masculino",
+      "inicio": "2026-09-24",
+      "fin": "2026-09-24",
+      "lugar": "Nave C de La Rural, Rosario, Argentina",
+      "modalidad": "Dobles masculino",
+      "estado": "disputado",
+      "fuente_url": "https://santafe2026.ar/es/noticias/colombia-paraguay-y-ecuador-se-coronaron-con-el-oro-en-las-finales-de-squash",
+      "revisado_el": "2026-11-19",
+      "nota": "Fecha de la final. Oro con Matías Knudsen; 2–0 ante Javier Romo y Álvaro Buenaño."
+    }
+  ]
+}

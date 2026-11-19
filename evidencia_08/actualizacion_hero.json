@@ -1,0 +1,18 @@
+{
+  "changed": [
+    "index.html",
+    "02/index.html",
+    "01/index.html",
+    "03/index.html",
+    "02/assets/estilo.css",
+    "01/assets/estilo.css",
+    "03/assets/estilos.css"
+  ],
+  "motion_and_welcome_assets_preserved": true,
+  "post_hero_and_remaining_sections_preserved": true,
+  "copy": {
+    "achievement": "Campeón panamericano.",
+    "precision": "Oro en dobles masculino · Juegos Panamericanos Toronto 2015",
+    "goal": "Rumbo a los Juegos Olímpicos."
+  }
+}

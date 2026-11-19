@@ -1,0 +1,53 @@
+{
+  "method": "Production JavaScript executed with simulated DOM, iframe messages, loading, and animation frames.",
+  "protocols": {
+    "file:": {
+      "doorPreloadSilent": true,
+      "openingOnlyAfterDoor": true,
+      "doorTimeoutFallback": true,
+      "staleDecodeIgnored": true,
+      "replayedTabs": [
+        "02",
+        "03",
+        "01",
+        "02",
+        "03",
+        "01"
+      ],
+      "scrollReset": true,
+      "noReload": true,
+      "duplicateSelectionIgnored": true,
+      "keyboard": true,
+      "midOpeningSwitchClean": true,
+      "returnFromCover": true,
+      "deepLink": true,
+      "standalone": true,
+      "latePhoto": true,
+      "reducedMotion": true
+    },
+    "http:": {
+      "doorPreloadSilent": true,
+      "openingOnlyAfterDoor": true,
+      "doorTimeoutFallback": true,
+      "staleDecodeIgnored": true,
+      "replayedTabs": [
+        "02",
+        "03",
+        "01",
+        "02",
+        "03",
+        "01"
+      ],
+      "scrollReset": true,
+      "noReload": true,
+      "duplicateSelectionIgnored": true,
+      "keyboard": true,
+      "midOpeningSwitchClean": true,
+      "returnFromCover": true,
+      "deepLink": true,
+      "standalone": true,
+      "latePhoto": true,
+      "reducedMotion": true
+    }
+  }
+}

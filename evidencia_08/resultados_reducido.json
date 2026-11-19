@@ -1,0 +1,193 @@
+[
+  {
+    "option": "01",
+    "result": {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": [
+        {
+          "src": "assets/fotos/AFH-F05.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [],
+      "shifts": [],
+      "photo": {
+        "x": 16,
+        "y": -131.265625,
+        "width": 273,
+        "height": 281.03125,
+        "top": -131.265625,
+        "right": 289,
+        "bottom": 149.765625,
+        "left": 16
+      },
+      "post": [
+        {
+          "x": 37,
+          "y": 385.75,
+          "width": 231,
+          "height": 72.28125,
+          "top": 385.75,
+          "right": 268,
+          "bottom": 458.03125,
+          "left": 37
+        },
+        {
+          "x": 37,
+          "y": 458.03125,
+          "width": 231,
+          "height": 122.859375,
+          "top": 458.03125,
+          "right": 268,
+          "bottom": 580.890625,
+          "left": 37
+        },
+        {
+          "x": 37,
+          "y": 662.671875,
+          "width": 231,
+          "height": 72.28125,
+          "top": 662.671875,
+          "right": 268,
+          "bottom": 734.953125,
+          "left": 37
+        },
+        {
+          "x": 37,
+          "y": 734.953125,
+          "width": 231,
+          "height": 146.046875,
+          "top": 734.953125,
+          "right": 268,
+          "bottom": 881,
+          "left": 37
+        }
+      ]
+    }
+  },
+  {
+    "option": "02",
+    "result": {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": [
+        {
+          "src": "assets/fotos/AFH-F01.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [],
+      "shifts": [],
+      "photo": {
+        "x": 16,
+        "y": -242.375,
+        "width": 273,
+        "height": 291.734375,
+        "top": -242.375,
+        "right": 289,
+        "bottom": 49.359375,
+        "left": 16
+      },
+      "post": [
+        {
+          "x": 40,
+          "y": 371.234375,
+          "width": 239,
+          "height": 100.953125,
+          "top": 371.234375,
+          "right": 279,
+          "bottom": 472.1875,
+          "left": 40
+        }
+      ]
+    }
+  },
+  {
+    "option": "03",
+    "result": {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": [
+        {
+          "src": "./assets/fotos/AFH-F06.webp",
+          "loaded": true
+        }
+      ],
+      "calls": [],
+      "shifts": [],
+      "photo": {
+        "x": 32.5,
+        "y": -311.4375,
+        "width": 240,
+        "height": 308.15625,
+        "top": -311.4375,
+        "right": 272.5,
+        "bottom": -3.28125,
+        "left": 32.5
+      },
+      "post": [
+        {
+          "x": 16,
+          "y": 365.921875,
+          "width": 273,
+          "height": 112.78125,
+          "top": 365.921875,
+          "right": 289,
+          "bottom": 478.703125,
+          "left": 16
+        },
+        {
+          "x": 16,
+          "y": 489.703125,
+          "width": 273,
+          "height": 47.328125,
+          "top": 489.703125,
+          "right": 289,
+          "bottom": 537.03125,
+          "left": 16
+        },
+        {
+          "x": 16,
+          "y": 673.53125,
+          "width": 273,
+          "height": 75.1875,
+          "top": 673.53125,
+          "right": 289,
+          "bottom": 748.71875,
+          "left": 16
+        },
+        {
+          "x": 16,
+          "y": 824.578125,
+          "width": 273,
+          "height": 22.21875,
+          "top": 824.578125,
+          "right": 289,
+          "bottom": 846.796875,
+          "left": 16
+        },
+        {
+          "x": 16,
+          "y": 962.1875,
+          "width": 273,
+          "height": 37.59375,
+          "top": 962.1875,
+          "right": 289,
+          "bottom": 999.78125,
+          "left": 16
+        },
+        {
+          "x": 16,
+          "y": 1010.78125,
+          "width": 273,
+          "height": 44.4375,
+          "top": 1010.78125,
+          "right": 289,
+          "bottom": 1055.21875,
+          "left": 16
+        }
+      ]
+    }
+  }
+]

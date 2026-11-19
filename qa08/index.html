@@ -1,0 +1,7 @@
+<!doctype html><meta charset="utf-8"><title>QA 08 · Fotogramas controlados</title><style>body{margin:0;background:#151a19;color:white;font:14px system-ui}h1{font-size:18px;margin:12px}main{display:flex;gap:12px;align-items:start;padding:8px}article{flex:none}h2{font-size:14px;margin:0 0 6px}iframe{background:white;border:0;display:block}body.desktop article{width:422.4px;height:330px}body.desktop iframe{transform:scale(.33);transform-origin:0 0}</style><h1>QA 08 · Fotogramas controlados · no es grabación de navegación</h1><main></main><script>
+const q=new URLSearchParams(location.search), option=q.get('option')||'01', phase=q.get('phase')||'opening', width=+(q.get('width')||390), height=width>760?900:844;
+if(width>760)document.body.classList.add('desktop');
+const times=phase==='opening'?[0,option==='02'?210:300,option==='01'?720:690]:[0,option==='02'?230:250,option==='03'?520:550];
+for(const t of times){const a=document.createElement('article');a.innerHTML=`<h2>${option} · ${phase} · ${t} ms · ${width} × ${height}</h2><iframe width="${width}" height="${height}" src="${option}.html?option=${option}&phase=${phase}&t=${t}${q.get('reduce')?'&reduce=1':''}"></iframe>`;document.querySelector('main').append(a);}
+addEventListener('message',e=>{const local=location.protocol==='file:';if(e.origin!==(local?'null':location.origin)||e.data?.type!=='gtl-opening-ready'||![...document.querySelectorAll('main iframe')].some(f=>f.contentWindow===e.source))return;e.source.postMessage({type:'gtl-opening-activation',active:true},local?'*':location.origin)});
+</script>

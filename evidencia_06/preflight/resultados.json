@@ -1,0 +1,105 @@
+{
+  "metodo": "Chromium; render en memoria con imagen precargada antes del script",
+  "chromium": "144.0.7559.96",
+  "pruebas": [
+    {
+      "opcion": "01",
+      "modo": "escritorio",
+      "foto_px": [
+        1890,
+        1395
+      ],
+      "opening_animaciones": 4,
+      "post_hero_animaciones": 4,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "01",
+      "modo": "movil",
+      "foto_px": [
+        1890,
+        1395
+      ],
+      "opening_animaciones": 4,
+      "post_hero_animaciones": 4,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "01",
+      "modo": "reducido",
+      "foto_px": [
+        1890,
+        1395
+      ],
+      "opening_animaciones": 0,
+      "post_hero_animaciones": 0,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "02",
+      "modo": "escritorio",
+      "foto_px": [
+        522,
+        599
+      ],
+      "opening_animaciones": 4,
+      "post_hero_animaciones": 3,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "02",
+      "modo": "movil",
+      "foto_px": [
+        522,
+        599
+      ],
+      "opening_animaciones": 4,
+      "post_hero_animaciones": 3,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "02",
+      "modo": "reducido",
+      "foto_px": [
+        522,
+        599
+      ],
+      "opening_animaciones": 0,
+      "post_hero_animaciones": 0,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "03",
+      "modo": "escritorio",
+      "foto_px": [
+        1440,
+        1440
+      ],
+      "opening_animaciones": 2,
+      "post_hero_animaciones": 6,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "03",
+      "modo": "movil",
+      "foto_px": [
+        1440,
+        1440
+      ],
+      "opening_animaciones": 2,
+      "post_hero_animaciones": 5,
+      "agenda_teclado": true
+    },
+    {
+      "opcion": "03",
+      "modo": "reducido",
+      "foto_px": [
+        1440,
+        1440
+      ],
+      "opening_animaciones": 0,
+      "post_hero_animaciones": 0,
+      "agenda_teclado": true
+    }
+  ]
+}

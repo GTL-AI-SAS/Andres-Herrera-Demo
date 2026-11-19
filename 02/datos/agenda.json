@@ -1,0 +1,29 @@
+{
+  "fecha_revision": "2026-11-19",
+  "historial": [
+    {
+      "id": "AFH-A03",
+      "nombre": "SACC Costa Rica Open 2026",
+      "inicio": "2026-11-10",
+      "fin": "2026-11-14",
+      "lugar": "Santa Ana Country Club, Santa Ana, Costa Rica",
+      "modalidad": "Individual masculino",
+      "estado": "disputado",
+      "fuente_url": "https://followsquash.com/tournaments/212?draw=male&player=190",
+      "revisado_el": "2026-11-19",
+      "nota": "Fechas del torneo. Herrera fue semifinalista; perdió 1–3 ante Mohamed Gohar."
+    },
+    {
+      "id": "AFH-A04",
+      "nombre": "XIII Juegos Suramericanos Santa Fe 2026 — final de dobles masculino",
+      "inicio": "2026-09-24",
+      "fin": "2026-09-24",
+      "lugar": "Nave C de La Rural, Rosario, Argentina",
+      "modalidad": "Dobles masculino",
+      "estado": "disputado",
+      "fuente_url": "https://santafe2026.ar/es/noticias/colombia-paraguay-y-ecuador-se-coronaron-con-el-oro-en-las-finales-de-squash",
+      "revisado_el": "2026-11-19",
+      "nota": "Fecha de la final. Oro con Matías Knudsen; 2–0 ante Javier Romo y Álvaro Buenaño."
+    }
+  ]
+}

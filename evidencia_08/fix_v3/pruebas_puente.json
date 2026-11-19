@@ -1,0 +1,37 @@
+{
+  "scope": "Unit tests of real JS with DOM/message stubs; not browser file navigation",
+  "results": [
+    {
+      "test": "parent visibility bridge",
+      "protocol": "file:",
+      "passed": true
+    },
+    {
+      "test": "parent visibility bridge",
+      "protocol": "http:",
+      "passed": true
+    },
+    {
+      "test": "old file child never registers or animates",
+      "passed": true
+    },
+    {
+      "test": "child waits for permission and photo, opens once",
+      "protocol": "file:",
+      "lateImage": false,
+      "passed": true
+    },
+    {
+      "test": "child waits for permission and photo, opens once",
+      "protocol": "file:",
+      "lateImage": true,
+      "passed": true
+    },
+    {
+      "test": "child waits for permission and photo, opens once",
+      "protocol": "http:",
+      "lateImage": false,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Andrés Felipe Herrera González · Presentación por GTL AI</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;background:#1c1214;color:#fff7ea}
+  .hub{height:100%;height:100dvh;display:grid;grid-template-rows:auto minmax(0,1fr)}
+  .mast{padding:4px 12px;border-bottom:1px solid #ffffff20}
+  .switch{display:flex;justify-content:center;gap:6px}
+  .switch button{
+    appearance:none;cursor:pointer;display:grid;place-items:center;
+    min-width:44px;height:44px;padding:0 9px;border:0;border-radius:6px;
+    background:transparent;color:#e6d5cd;font:650 13px/1 system-ui,sans-serif;
+    font-variant-numeric:tabular-nums;letter-spacing:.06em;
+  }
+  .switch button:hover{background:#ffffff12;color:#fff7ea}
+  .switch button[aria-selected="true"]{background:#fff7ea;color:#1c1214}
+  .switch button:focus-visible{outline:2px solid #ffcf77;outline-offset:1px}
+  .stage{position:relative;min-height:0;background:#111}
+  .stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#111;display:none}
+  .stage iframe.is-on{display:block}
+  .welcome .welcome-achievement{font-size:clamp(46px,6.2vw,92px);line-height:.94;letter-spacing:-.065em}
+  .welcome .welcome-achievement em{letter-spacing:-.07em}
+  .welcome-olympic{font:750 clamp(20px,2vw,29px)/1.15 system-ui,sans-serif;color:#b5ffe9;max-width:23ch;margin:22px 0 0}
+  @media(max-width:760px){.welcome .welcome-achievement{font-size:clamp(36px,11.6vw,72px)}.welcome-olympic{font-size:21px;margin-top:16px}}
+</style>
+<link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+<section class="welcome" id="bienvenida" aria-labelledby="welcome-title">
+  <div class="welcome-field" aria-hidden="true"></div>
+  <header class="welcome-top">
+    <span class="brand-word">GTL<span>AI</span></span>
+    <span class="private-tag"><i></i> Presentación privada</span>
+  </header>
+  <div class="welcome-main">
+    <div class="welcome-copy">
+      <p class="welcome-kicker"><span></span> Propuesta web</p>
+      <h1 id="welcome-title" class="welcome-achievement">Campeón<br><em>panamericano.</em></h1>
+      <p class="welcome-olympic">Rumbo a los Juegos Olímpicos.</p>
+      <p class="welcome-description"><strong>Andrés Felipe Herrera González</strong><br>Squash · Colombia. Oro en dobles masculino, Toronto 2015. Tres propuestas de portafolio.</p>
+      <a class="start-demo" id="empezar-demo" href="01/index.html">Empezar el demo <span aria-hidden="true">↗</span></a>
+      <p class="plain-links" aria-label="Accesos directos"><a href="01/index.html">Demo 01</a> · <a href="02/index.html">Demo 02</a> · <a href="03/index.html">Demo 03</a></p>
+    </div>
+    <figure class="welcome-visual" aria-hidden="true">
+      <div class="portal-shell">
+        <div class="portal-rails"></div>
+        <div class="portal-mark">
+          <video id="brand-film" muted playsinline preload="none" poster="intro-assets/logo-poster.webp" disablepictureinpicture tabindex="-1">
+            <source src="intro-assets/logo-intro.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portal-window" id="demo-aperture">
+          <img src="intro-assets/AFH-F01.jpg" alt="" width="522" height="599" fetchpriority="high" decoding="async">
+          <span class="photo-shade"></span>
+          <svg class="portal-drawing" viewBox="0 0 420 420" fill="none">
+            <circle class="orbit-base" cx="210" cy="210" r="195"/>
+            <circle class="orbit-trace" cx="210" cy="210" r="195" pathLength="100"/>
+            <circle class="orbit-inner" cx="210" cy="210" r="177"/>
+            <path class="orbit-inner" d="M210 0v20m0 380v20M0 210h20m380 0h20"/>
+          </svg>
+        </div>
+        <div class="portal-index"><span>01</span><span>02</span><span>03</span></div>
+      </div>
+    </figure>
+  </div>
+  <footer class="welcome-footer"><span>Andrés Felipe Herrera González</span><span>Foto: IDRD · Portal Bogotá</span></footer>
+</section>
+<div class="reveal-ring" aria-hidden="true"></div>
+
+<main class="hub" aria-label="Demos de Andrés Felipe Herrera González" hidden>
+  <header class="mast">
+    <div class="switch" role="tablist" aria-label="Elegir demo">
+      <button type="button" role="tab" id="tab-01" data-demo="01" aria-controls="frame-01" aria-selected="true" aria-label="01 · El nombre que cambia en la dupla">01</button>
+      <button type="button" role="tab" id="tab-02" data-demo="02" aria-controls="frame-02" aria-selected="false" aria-label="02 · El cuadro termina aquí" tabindex="-1">02</button>
+      <button type="button" role="tab" id="tab-03" data-demo="03" aria-controls="frame-03" aria-selected="false" aria-label="03 · El resultado no siempre es individual" tabindex="-1">03</button>
+    </div>
+  </header>
+  <div class="stage">
+    <iframe class="is-on" id="frame-01" title="El nombre que cambia en la dupla" data-src="01/index.html"></iframe>
+    <iframe id="frame-02" title="El cuadro termina aquí" data-src="02/index.html"></iframe>
+    <iframe id="frame-03" title="El resultado no siempre es individual" data-src="03/index.html"></iframe>
+  </div>
+</main>
+<script src="opening-bridge.js" defer></script>
+<script src="welcome.js" defer></script>
+</body>
+</html>
